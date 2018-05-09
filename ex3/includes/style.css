@@ -105,7 +105,9 @@ section{background-color:#ee5f5b;}
 	line-height:57px;
 }
 
-.layout,.layout2{
+/*.layout,.layout2*/
+/*.layout,#layout_2 li:nth-child(2)*/
+.layout,#layout_2 li:nth-child(2){
 	background-color:#b94a48;
 }
 
