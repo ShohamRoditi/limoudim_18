@@ -4,7 +4,7 @@
 }
 
 
-header,nav,aside,article,section,main,footer,{
+header,nav,aside,article,section,main,footer{
 	display:block;
 }
 
@@ -105,8 +105,6 @@ section{background-color:#ee5f5b;}
 	line-height:57px;
 }
 
-/*.layout,.layout2*/
-/*.layout,#layout_2 li:nth-child(2)*/
 .layout,#layout_2 li:nth-child(2){
 	background-color:#b94a48;
 }
@@ -120,7 +118,7 @@ section{background-color:#ee5f5b;}
 	height:94px;
 }
 
-#layout_1 main{ position:relative;}
+#layout_1 main{position:relative;}
 
 #layout_1 main article{
 	position:absolute; 
@@ -144,14 +142,14 @@ section{background-color:#ee5f5b;}
 }
 
 
-#layout_2 nav {
+#layout_2 nav{
 	width:243px; 
 	height:885px;
 	float:left;
 }
 
 
-#layout_2 nav li  { 
+#layout_2 nav li{ 
 	display:block;
 }
 
