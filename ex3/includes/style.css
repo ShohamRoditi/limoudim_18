@@ -141,18 +141,11 @@ section{background-color:#ee5f5b;}
 	top:37px;
 }
 
-
 #layout_2 nav{
 	width:243px; 
 	height:885px;
 	float:left;
 }
-
-
-#layout_2 nav li{ 
-	display:block;
-}
-
 
 #layout_2 li a{
 	height:58px;
