@@ -15,6 +15,7 @@ function createBox(){
 	var newObj = document.createElement("article");
 	var formObj = document.getElementById("container");
  	formObj.appendChild(newObj);
+ 	var opacity_element;
  	newObj.style.backgroundColor = "#000000";
  	newObj.style.opacity = Math.random();
  	
