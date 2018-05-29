@@ -1,0 +1,92 @@
+*{
+	padding:0px;
+	margin:0px;
+	color:#FFFFFF;
+	font-family: 'Cabin Condensed', sans-serif;
+
+}
+
+header,nav,aside,article,section,main,footer{
+	display:block;
+}
+
+#wrapper{
+	margin:0px auto;
+	width:1000px;
+	 background-color: #0000002b;
+    border-radius: 6px;
+}
+
+img{
+	position: absolute;
+    width: 35%;
+    /*z-index: -1;*/
+    top: 50%;
+    right: 200px;
+}
+
+
+body{
+	background: radial-gradient(circle, #3ad7ff, #060f2c);
+	 background-color: #40915a;
+	background-color: #e0ff57;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23e0ff57' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23cef154' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23bde451' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23add64e' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%239dc94b' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%238ebb48' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%2380ae44' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2372a040' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%2365933c' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23588638' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%234c7934' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23416c2f' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23375f2b' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%232d5326' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23244721' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%231c3b1b' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23142f16' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%230e2410' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+
+ 
+input[type=submit] {
+    background-color: #80C4B8;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea,input {
+    border: 5px solid #ffffff;
+    border-radius:10px;
+    padding: 10px;
+    background-color: #ffffff;
+    
+}
+
+input,textarea,select{
+	 animation-name: change_background;
+    animation-duration: 4s;
+}
+
+@keyframes change_background {
+    from {background-color: #5780aa;}
+    to {background-color: #80C4B8;}
+    
+}
+
+form{
+	border-radius: 20px;
+	width:800px;
+	margin: 0px auto;
+	margin-top:40px;
+	font-size:20px;
+}
+
+
+div h1{
+	animation-name:title;
+	animation-duration: 4s;
+	text-align:center;
+	font-size:90px;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	margin-top:30px;
+}
+
+@keyframes title{
+    from {color: #5780aa;}
+    to {color: #80C4B8;}
+    
+}
