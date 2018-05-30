@@ -1,5 +1,5 @@
-window.onload=function(){
-	};
+// window.onload=function(){
+	// };
 
 var i=0;
 function checkAddress(){

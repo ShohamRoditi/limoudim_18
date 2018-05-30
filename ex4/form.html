@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shoham Roditi_ex4</title>
+		<meta name="viewport" content="width=device-width">
+		<meta charset="UTF-8">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="includes/style.css">
+		<!-- <script src="includes/javascript.js"></script> -->
+		<link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Lobster" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	</head>
+	<body id="tour_form">
+		<div id="wrapper">
+			<img src="images/guide.svg">
+			<div><h1>JOIN TO OUR TRIP</h1></div>
+			<form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get" onsubmit="return checkAddress();" >
+		
+				
+				<div class="form-group">
+					<br>
+					<label >Your full name : 
+						<input type="text" required name="fullName" placeholder="Your full name" class="form-control">
+					</label><br><br>
+	
+					<label>Your password : 
+						<input type="password" pattern="[a-z]+[0-9]+" title="A coupon number must be a lower case letter between 
+						a-z followed by a digit between 0 to 9" name="pass" placeholder="Your password" class="form-control">
+					</label><br><br>
+					
+					<label>Your mail : 
+						<input type="email" name="mail" placeholder="Your email" class="form-control" >
+					</label><br><br>
+					
+					<label>Your website : 
+						<input type="url" name="website" placeholder="Your website" autocomplete="on" class="form-control">
+					</label><br><br>
+					
+					<label>Your phone : 
+						<input type="tel" name="phone" maxlength="12" placeholder=" Your phone" class="form-control">
+					</label><br><br>
+					
+					<label>Duration of the trip:
+						<input type="number" name="coffee" min="0" max="30"  value="0" class="form-control">
+					</label><br><br>
+					
+					<label>Number of participants per trip :  0 
+						<input type="range" name="temper" value="0" min="0" max="45" >45
+					</label><br><br>
+					<div id="adrs">
+					  	<label>Your address
+						<textarea name="address" rows="2" cols="40" placeholder="Your address" id="address" class="form-control"></textarea>
+					</label>
+					</div>
+					<br><br>
+					<!-- <button>validate your address</button><br> -->
+					<h3>What type of trip are you interested in?</h3><br>
+					<label>
+						<input type="checkbox" name="interests[]" value="Family trips">Family trips
+					</label><br>
+					
+					<label>
+						<input type="checkbox" name="interests[]" value="Cycling">Cycling
+					</label><br>
+					
+					<label>
+						<input type="checkbox" name="interests[]" value="Treks">Treks
+					</label><br>
+					
+					<label>
+						<input type="checkbox" name="interests[]" value="Ski">Ski
+					</label><br><br>
+					
+					<h3>Your gender</h3><br>
+					<label>
+						<input type ="radio" name="gender" value ="female"> Female
+					</label><br>
+					<label>
+						<input type ="radio" name="gender" value ="Male"> Male
+					</label><br>
+					
+					<label>Your age :
+						<select name="age" class="form-control" >
+							<option value="23-25">23-25</option>
+							<option value="25-28">25-28</option>
+							<option value="25-35">25-35</option>
+							<option value="36-45">36-45</option>
+							<option value="46-55">46-55</option>
+							<option value="56-70">56-70</option>
+						</select>
+					</label>
+					<br><br>
+					<input type="submit" value="SIGN NOW"><br><br>
+				</div>
+			</form>
+			<script src="includes/javascript.js"></script>	
+		</div>
+	</body>
+</html>
