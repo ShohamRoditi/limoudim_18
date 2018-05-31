@@ -13,7 +13,7 @@ header,nav,aside,article,section,main,footer{
 #wrapper{
 	margin:0px auto;
 	width:1000px;
-	 background-color: #0000002b;
+	background-color: #0000002b;
     border-radius: 6px;
 }
 
@@ -28,7 +28,7 @@ header,nav,aside,article,section,main,footer{
 
 #tour_form{
 	background: radial-gradient(circle, #3ad7ff, #060f2c);
-	 background-color: #40915a;
+	background-color: #40915a;
 	background-color: #e0ff57;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23e0ff57' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23cef154' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23bde451' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23add64e' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%239dc94b' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%238ebb48' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%2380ae44' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2372a040' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%2365933c' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23588638' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%234c7934' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23416c2f' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23375f2b' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%232d5326' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23244721' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%231c3b1b' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23142f16' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%230e2410' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
 	background-attachment: fixed;
@@ -56,7 +56,7 @@ textarea,input {
 }
 
 input,textarea,select{
-	 animation-name: change_background;
+	animation-name: change_background;
     animation-duration: 4s;
 }
 
